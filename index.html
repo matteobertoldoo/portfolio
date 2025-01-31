@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberBerto Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+
+<body>
+    <header>       
+        <div class="logo">
+            <img src="img/logo.jpg" alt="">
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="attachments/BertoldoCV.pdf" class="nav__link">CV</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Matteo Bertoldo</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Cybersecurity & Fintech</p>
+        <img src="img/mainberto.jpg" alt="a picture of Matteo Bertoldo smiling" class="intro__img">
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">ㅤWhat I do</h2>
+        
+        <div class="services">
+
+            <div class="service">
+                <h3>CYBERSECURITY</h3>
+                <p>Passionate about security & cryptography. Actively competing in Capture The Flag challenges
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>FINTECH & BLOCKCHAIN</h3>
+                <p>Exploring the evolution of financial technology and decentralized applications.  
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>FULLSTACK DEVELOPING</h3>
+                <p>Building intuitive and efficient web applications with a focus on user experience
+                </p>
+            </div> 
+
+        </div>
+
+        <a href="#work" class="btn">My Work</a>
+
+    </section>
+
+     <!-- About me -->
+   <!-- About me -->
+<section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about">Cybersecurity Enthusiast & Adventure Seeker</p>
+
+    <div class="about-me__body"> 
+        <p>
+            My journey into cybersecurity started with a deep curiosity for how digital systems can be protected against attacks. 
+            Over time, I developed a strong interest in ethical hacking and cryptography.
+        </p>
+        <p>
+            Currently, I am pursuing a double-degree MSc in Cyber Security through the EIT Digital program, 
+            focusing on financial technology security and blockchain applications
+        </p>
+        <p>
+            Outside of tech, I enjoy swimming, hitting the gym, and seeking new adventures. My goal is to enhance financial security while making the most of life.
+        </p>
+    </div>
+
+    <img src="img/fotoacaso.jpg" alt="Matteo Bertoldo exploring a mountain" class="about-me__img">
+    <a href="attachments/BertoldoCV.pdf" class="btn">CV</a>
+</section>
+
+
+     <!-- My work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+
+            <!-- portfolio item 1-->
+            <a href="work/portfolio.html" class="portfolio__item">
+                <img src="img/sito.png" alt="questo sito" class=" portfolio__img">
+            </a>
+
+             <!-- portfolio item 2-->
+             <a href="#" class="portfolio__item">
+                <img src="img/fintech.png" alt="paper su fintech e privacy" class=" portfolio__img">
+            </a>
+            
+            
+            <!-- portfolio item 3-->
+            <a href="#" class="portfolio__item">
+                <img src="img/securitytesting.jpeg" alt="security testing project" class=" portfolio__img">
+            </a>
+
+
+             <!-- portfolio item 4-->
+             <a href="#" class="portfolio__item">
+                <img src="img/cyberchallenge.jpeg" alt="competizione cyberchallenge" class=" portfolio__img">
+            </a>
+
+             <!-- portfolio item 5
+             <a href="#" class="portfolio__item">
+                <img src="img/portfolio-05.jpg" alt="" class=" portfolio__img">
+            </a> -->
+
+
+        </div>
+    </section>
+
+      <!-- footer -->
+    <footer class="footer">
+        <a href="mailto:matteobertoldo8@gmail.com" class="footer__link">matteobertoldo8@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/matteobertoldoo"><i class="fab fa-github"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/matteobertoldoo"><i class="fab fa-linkedin"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/matteobertoldoo"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>
